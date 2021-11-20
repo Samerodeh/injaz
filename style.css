@@ -117,39 +117,43 @@ form button{
 
 .ourmission{
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
     text-decoration: none;
     color: rgb(10, 10, 10);
+    font-style: normal;
+    font-weight: 100;
     
     /* size: 10mm; */
 }
 
 .inspire{
     text-align: center;
-    color: blue;
+    color: midnightblue;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .injazeducation{
     position: absolute;
     left: 522px;
-    top: 985px;
+    top: 1010px;
 }
 
 .mystartup{
     position: absolute;
     left: 835px;
-    top: 1000px;
+    top: 1025px;
 }
 
 .Explorered{
     position: absolute;
     left: 617px;
-    top: 1100px;
+    top: 1105px;
     font-size: small;
     /* border: white;
     border-color: white;
     background-color: white; */
-    color: blue;
+    color: midnightblue;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -161,18 +165,18 @@ form button{
 .redtringle1{
     position: absolute;
     left: 665px;
-    top: 1099px;
+    top: 1105px;
 }
 
 .Exploreyellow{
     position: absolute;
     left: 900px;
-    top: 1100px;
+    top: 1103px;
     font-size: small;
     /* border: white;
     border-color: white;
     background-color: white; */
-    color: blue;
+    color: midnightblue;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -183,8 +187,8 @@ form button{
 
 .yellowtringle{
     position: absolute;
-    left: 950px;
-    top: 1099px;
+    left: 948px;
+    top: 1101.5px;
 }
 
 .outreachandimpact{
@@ -200,6 +204,7 @@ form button{
     font-size: xx-large;
     font-family:sans-serif;
     font-style: normal;
+    font-weight: 100;
 }
 
 .training{
@@ -226,6 +231,8 @@ form button{
     top: 1600px;
     color: white;
     font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .num2{
@@ -234,6 +241,8 @@ form button{
     top: 1600px;
     color: white;
     font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .num3{
@@ -242,6 +251,8 @@ form button{
     top: 1600px;
     color: white;
     font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .Training{
@@ -250,6 +261,8 @@ form button{
     top: 1650px;
     color: white;
     font-size: small;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .Youth{
@@ -258,6 +271,8 @@ form button{
     top: 1650px;
     color: white;
     font-size: small;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .Volunteering{
@@ -266,6 +281,8 @@ form button{
     top: 1650px;
     color: white;
     font-size: small;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .learnmore{
@@ -289,123 +306,375 @@ form button{
     
 }
 
-
-
-
-
-/* ******************************************************************************************************************************* */
-
-/* body{
+.corebackground{
     width: 100%;
-    margin: auto;
-}
-
-header{
-    align-items: center;
-}
-
-.img1{
-    width: 100px;
-  }
-
-.img2{
-   
     position: absolute;
-    right: 480px;
-    top: 275px;
+    top: 1858px;
+}
+
+.values{
+    position: absolute;
+    top: 1900px; 
+    left: 510px;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.conviction{
+    position: absolute;
+    top: 1970px; 
+    left: 328px;
+    font-size: x-large;
+    font-style: normal;
+    /* font-weight: 100; */
+    color: midnightblue;
+}
+
+.redblue{
+    position: absolute;
+    left: 350px;
+    top: 2070px;
+}
+
+.dev{
+    position: absolute;
+    left: 392px;
+    top: 2125px;
+    text-align: center;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+.blueblue{
+    position: absolute;
+    left: 650px;
+    top: 2070px;
+}
+
+.nurturing{
+    position: absolute;
+    left: 683px;
+    top: 2125px;
+    text-align: center;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+.goldblue{
+    position: absolute;
+    left: 980px;
+    top: 2070px;
+}
+
+.promoting{
+    position: absolute;
+    left: 1020px;
+    top: 2125px;
+    text-align: center;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+}
+
+.learnmore1{
+    position: absolute;
+    left: 710px;
+    top: 2330px;
+    color: midnightblue;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: large;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.redtringle3{
+    position: absolute;
+    left: 815px;
+    top: 2328px;
+}
+
+.partnersbackground{
+    position: absolute;
+    top: 2395px;
+}
+
+.PARTNERS{
+    position: absolute;
+    left: 700px;
+    top: 2450px;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 100;
     
-  }
-
-
-.img3{
-
-    position: absolute;
-    right: 5px;
-    top: 85px;
 }
 
-
-.line{
-    text-align: center;
+.taj{
     position: absolute;
-    right: 623px;
-    top: 450px;
-    color: white;
+    left: 845px;
+    top: 2441px;
 }
 
-  .new{
-      text-align: center;
-      position: absolute;
-      right: 740px;
-      top: 470px;
-      padding-top: 2px;
-      color: white;
-  }
-
-.drop{
-    border-radius: 5px;
+.INJAZ{
     position: absolute;
-    right: 15px;
-    bottom: 630px;
-    size: 250px;
-    width: 40px;
-    height: 40px;
-    color: rgb(0, 0, 43);
-    background-color: white;
+    left: 317px;
+    top: 2525px;
+    font-size: x-large;
+    font-style: normal;
+    /* font-weight: 100; */
+    color: midnightblue;
 }
 
-.search{
+.jordanbank{
     position: absolute;
-    right: 50px;
-    top: 15px;
+    top: 2680px;
+    left: 115px;
 }
 
-form button{
+.itehadbank{
     position: absolute;
-    right: 0.65px;
-}   
-
-.ground{
-    background-color: white;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    right: 700px;
-    top: 510px;
-    width: 190px;
-    height: 50px; 
-} 
-
-.icons{
-    text-decoration: none;
-    color: rgb(163, 157, 157);
-    text-align: center;
-    padding-right: 28px;
-    padding-top: 20px;
+    top: 2680px;
+    left: 375px;
 }
 
-footer{
-    width: auto;
-    margin: auto;
-}
-
-.img5{
-    width: 100%;
+.ylogo{
     position: absolute;
-    right: 73px;
-    top: 556px;
+    top: 2680px;
+    left: 550px;
 }
 
-.img6{
-    width: 50px;
-    position: relative;
-}
-
-.right{
+.aramex{
     position: absolute;
-    left: 200px;
-    bottom: 5px;
-    color: white;
-} */
+    top: 2680px;
+    left: 738px;
+}
+
+.aces{
+    position: absolute;
+    top: 2680px;
+    left: 930px;
+}
+
+.arabbank{
+    position: absolute;
+    top: 2680px;
+    left: 1117px;
+}
+
+.kawar{
+    position: absolute;
+    top: 2680px;
+    left: 1313px;
+}
+
+.miqdadi{
+    position: absolute;
+    top: 2778px;
+    left: 135px;
+}
+
+.islamicarabbank{
+    position: absolute;
+    top: 2778px;
+    left: 365px;
+}
+
+.jlogo{
+    position: absolute;
+    top: 2778px;
+    left: 550px;
+}
+
+.iskanbank{
+    position: absolute;
+    top: 2778px;
+    left: 747px;
+}
+
+.haya{
+    position: absolute;
+    top: 2778px;
+    left: 935px;
+}
+
+.solidrity{
+    position: absolute;
+    top: 2778px;
+    left: 1118px;
+}
+
+.eylogo{
+    position: absolute;
+    top: 2770px;
+    left: 1313px;
+}
+
+.toyota{
+    position: absolute;
+    top: 2880px;
+    left: 135px;
+}
+
+.cairoammanbank{
+    position: absolute;
+    top: 2875px;
+    left: 365px;
+}
+
+.nathealth{
+    position: absolute;
+    top: 2875px;
+    left: 555px;
+}
+
+.metlife{
+    position: absolute;
+    top: 2887px;
+    left: 747px;
+}
+
+.mashrek{
+    position: absolute;
+    top: 2878px;
+    left: 925px;
+}
+
+.madfoatcom{
+    position: absolute;
+    top: 2878px;
+    left: 1118px;
+}
+
+.landmark{
+    position: absolute;
+    top: 2875px;
+    left: 1307px;
+}
+
+.orange{
+    position: absolute;
+    top: 2980px;
+    left: 135px;
+}
+
+.jordankuwaitbank{
+    position: absolute;
+    top: 2983px;
+    left: 376px;
+}
+
+.bibisko{
+    position: absolute;
+    top: 2980px;
+    left: 568px;
+}
+
+.umniah{
+    position: absolute;
+    top: 2970px;
+    left: 720px;
+}
+
+.standrd{
+    position: absolute;
+    top: 2982px;
+    left: 932px;
+}
+
+.sts{
+    position: absolute;
+    top: 2985px;
+    left: 1120px;
+}
+
+.sgbj{
+    position: absolute;
+    top: 2981px;
+    left: 1308px;
+}
+
+.philadilphia{
+    position: absolute;
+    top: 3087px;
+    left: 138px;
+}
+
+.omntrade{
+    position: absolute;
+    top: 3087px;
+    left: 376px;
+}
+
+.offtec{
+    position: absolute;
+    top: 3089px;
+    left: 566px;
+}
+
+.national{
+    position: absolute;
+    top: 3089px;
+    left: 748px;
+}
+
+.zain{
+    position: absolute;
+    top: 3096px;
+    left: 943px;
+}
+
+.alogo{
+    position: absolute;
+    top: 3090px;
+    left: 1120px;
+}
+
+.islamicarabbank1{
+    position: absolute;
+    top: 3090px;
+    left: 1315px;
+}
+
+.learnmore2{
+    position: absolute;
+    left: 730px;
+    top: 3205px;
+    color: midnightblue;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: large;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.redtringle4{
+    position: absolute;
+    left: 835px;
+    top: 3203px;
+}
+
+.leftarrow{
+    position: absolute;
+    left: 38px;
+    top: 2875px;
+}
+
+.rightarrow{
+    position: absolute;
+    left: 1430px;
+    top: 2875px;
+}
