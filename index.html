@@ -14,27 +14,44 @@
     <header>
         <div>
             <div class="img1"><img src="./assets/1.png" alt=""></div>
-            <div class="img2"><img src="./assets/2.png" alt=""></div>
-            <div class="img3"><img src="./assets/img4.png" alt=""></div>
+            <div class="np">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
 
-            <button class="drop"><i class="fa fa-bars"></i></button>
-            <p class="line">________________________________________________</p>
-            <p class="new">New Space for Generations</p>
-            <section class="ground">
-                <form class="search" action="action_page.php">
-                    <input type="text" placeholder="Search..." name="search">
+        </div>
+        <div class="dots">
+            <span class="dot1" onclick="currentSlide(1)"></span>
+            <span class="dot2" onclick="currentSlide(2)"></span>
+            <span class="dot3" onclick="currentSlide(3)"></span>
+            <span class="dot4" onclick="currentSlide(4)"></span>
+            <span class="dot5" onclick="currentSlide(5)"></span>
+            <span class="dot6" onclick="currentSlide(6)"></span>
+        </div>
+
+        <div class="img2"><img src="./assets/2.png" alt=""></div>
+        <div class="img3"><img src="./assets/img4.png" alt=""></div>
+
+        <button class="drop"><i class="fa fa-bars"></i></button>
+        <p class="line">________________________________________________</p>
+        <p class="new">New Space for Generations</p>
+        <section class="ground">
+            <form class="searchbar" action="action_page.php">
+                <input class="input1" type="text" placeholder="Search..." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-                <div class="icons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-snapchat"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div>
+            </form>
+            <div class="headericons">
+                <ul>
+                    <li class="hfacebook"><a href="#" class="fa fa-facebook"></a></li>
+                    <li class="hinstagram"><a href="#" class="fa fa-instagram"></a></li>
+                    <li class="htwitter"><a href="#" class="fa fa-twitter"></a></li>
+                    <li class="hsnapchat"><a href="#" class="fa fa-snapchat"></a></li>
+                    <li class="hlinkedin"><a href="#" class="fa fa-linkedin"></a></li>
+                    <li class="hyoutube"><a href="#" class="fa fa-youtube"></a></li>
+                </ul>
+            </div>
 
-            </section>
+        </section>
 
         </div>
     </header>
@@ -139,8 +156,10 @@
             <div class="islamicarabbank1"><img src="./assets/islamicarabbank.png" alt=""></div>
             <button class="learnmore2" type=""><i class=""></i>Learn More</button>
             <div class="redtringle4"><img src="./assets/tringlered.png" alt=""></div>
-            <div class="leftarrow"><img src="./assets/leftarrow.png" alt=""></div>
-            <div class="rightarrow"><img src="./assets/rightarrow.png" alt=""></div>
+            <div class="pnp">
+                <a class="pprev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="pnext" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </section>
 
         <section class="joinus">
@@ -236,9 +255,6 @@
             <div class="formborder">
                 <div class="container">
                     <div class="row">
-                        <!-- <h1>contact us</h1> -->
-                    </div>
-                    <div class="row">
                         <h4 style="text-align:center">CONTACT FORM</h4>
                     </div>
                     <div class="row input-container">
@@ -294,6 +310,44 @@
         </section>
     </main>
     <footer>
+        <section class="fbackground">
+            <div class="footerbackground"><img src="./assets/footerbackground.png" alt=""></div>
+            <div class="footerlogo"><img src="./assets/footerlogo.png" alt=""></div>
+            <h4 class="footerabout">About Us</h4>
+            <button class="Overview">Overview</button>
+            <button class="Mission">Mission</button>
+            <button class="Letter">Letter from CEO</button>
+            <button class="Trustees">Board of Trustees</button>
+            <button class="Directorss">Board of Directors</button>
+            <button class="Management">Management Team</button>
+            <button class="Careers">Careers</button>
+            <button class="footerContact">Contact Us</button>
+            <h4 class="footerImpact">Impact & Outreach</h4>
+            <h4 class="footerModel">Model</h4>
+            <button class="Cumulative">Cumulative</button>
+            <button class="Practical">Practical</button>
+            <button class="Holistic">Holistic</button>
+            <button class="PPP">PPP</button>
+            <button class="Social">Social Contribution</button>
+            <h4 class="footerPartners">Partners</h4>
+            <button class="fbtrust">Board of Trustees</button>
+            <button class="fPartners">Partners</button>
+            <button class="fVolunteers">Volunteers</button>
+            <h4 class="footerMedia">Media Center</h4>
+            <button class="footerNews">News</button>
+            <button class="footerEvents">Events & Activities</button>
+            <div class="footericons">
+                <ul>
+                    <li class="ffacebook"><a href="#" class="fa fa-facebook"></a></li>
+                    <li class="finstagram"><a href="#" class="fa fa-instagram"></a></li>
+                    <li class="ftwitter"><a href="#" class="fa fa-twitter"></a></li>
+                    <li class="fsnapchat"><a href="#" class="fa fa-snapchat"></a></li>
+                    <li class="flinkedin"><a href="#" class="fa fa-linkedin"></a></li>
+                    <li class="fyoutube"><a href="#" class="fa fa-youtube"></a></li>
+                </ul>
+            </div>
+            <div class="copyrights"> Copyright &copy; 2021 INJAZ</div>
+        </section>
     </footer>
 </body>
 
