@@ -842,3 +842,351 @@ form button{
     background-repeat: no-repeat;
 
 }
+
+.mediacenter{
+    position: absolute;
+    top: 3935px;
+}
+
+.medialogo{
+    position: absolute;
+    top: 73px;
+    left: 100px;
+}
+
+.media1{
+    position: absolute;
+    top: 120px;
+    left: 587px;
+}
+
+.media2{
+    position: absolute;
+    top: 120px;
+    left: 887px;
+}
+
+.media3{
+    position: absolute;
+    top: 120px;
+    left: 1170px;
+}
+
+.mediah{
+    position: absolute;
+    top: 455px;
+    left: 185px;
+    color: midnightblue;
+    font-size: xx-large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.learnmore3{
+    position: absolute;
+    left: 310px;
+    top: 525px;
+    color: #c92432;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.redtringle5{
+    position: absolute;
+    top: 520px;
+    left: 400px;
+}
+
+.joint{
+    position: absolute;
+    top: 500px;
+    left: 597px;
+    color: #33649a;
+    font-size: smaller;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.mr{
+    position: absolute;
+    top: 500px;
+    left: 905px;
+    color: #33649a;
+    font-size: smaller;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.declare{
+    position: absolute;
+    top: 495px;
+    left: 1200px;
+    color: #33649a;
+    font-size: smaller;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.formsection{
+    position: absolute;
+    top: 4800px;
+}
+
+.mapsection{
+    position: absolute;
+    top: 4600px;
+    left: 120px;
+}
+
+.formborder{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 45%;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: white;
+    font-size: small;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* .container{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 45%;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: white;
+    font-size: small;
+    font-weight: 100;
+    font-style: normal;
+    
+
+} */
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: midnightblue;
+    line-height: 1.5;
+}
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #9babbc;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 600px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 75%;
+    font-size: 1rem;
+    background-color: #f4f5f7;
+    color: black;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 96%;
+    min-height: 1em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 5px 260px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: #c72452;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+.redtringle6{
+    position: absolute;
+    top: 737px;
+    left: 480px;
+}
+
+.contactus{
+    position: absolute;
+    top: 245px;
+    left: 845px;
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: normal;
+    color: midnightblue;
+}
+
+.locationicon{
+    position: absolute;
+    top: 340px;
+    left: 830px;
+}
+
+.address{
+    position: absolute;
+    top: 325px;
+    left: 930px;
+    color: #9babbc;
+}
+
+.aline{
+    position: absolute;
+    top: 323px;
+    left: 930px;
+    color: rgb(224, 4, 4);
+    font-weight: 700;
+}
+
+.makkah{
+    position: absolute;
+    top: 350px;
+    left: 930px;
+    color: midnightblue;
+    font-size: large;
+}
+
+.telephoneicon{
+    position: absolute;
+    top: 450px;
+    left: 830px;
+}
+
+.telephone{
+    position: absolute;
+    top: 440px;
+    left: 930px;
+    color: #9babbc;
+}
+
+.numbers{
+    position: absolute;
+    top: 468px;
+    left: 930px;
+    color: midnightblue;
+    font-size: large;
+}
+
+.emailicon{
+    position: absolute;
+    top: 570px;
+    left: 833px;
+}
+
+.email{
+    position: absolute;
+    top: 555px;
+    left: 930px;
+    color: #9babbc;
+}
+
+.mail{
+    position: absolute;
+    top: 580px;
+    left: 930px;
+    color: midnightblue;
+    font-size: large;
+}
+
+.boxicon{
+    position: absolute;
+    top: 688px;
+    left: 833px;
+}
+
+.box{
+    position: absolute;
+    top: 680px;
+    left: 930px;
+    color: #9babbc;
+}
+
+.amman{
+    position: absolute;
+    top: 707px;
+    left: 930px;
+    color: midnightblue;
+    font-size: large;
+}
